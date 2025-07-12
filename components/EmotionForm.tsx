@@ -9,6 +9,7 @@ interface EmotionResponse {
 }
 
 export default function EmotionForm() {
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
   const [text, setText] = useState('');
   const [result, setResult] = useState<EmotionResponse | null>(null);
   const [loading, setLoading] = useState(false);
@@ -21,7 +22,8 @@ export default function EmotionForm() {
     setResult(null);
 
     try {
-      const res = await axios.post('http://127.0.0.1:8000/analyze', { text });
+     const res = await axios.post(`${apiUrl}/analyze`, { text });
+
       setResult(res.data);
     } catch (err) {
       setError('Something went wrong. Please try again.');
