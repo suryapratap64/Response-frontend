@@ -20,6 +20,14 @@ Backend (API): [https://response-app-backend.onrender.com/analyze](https://respo
 - 🌐 Deployed on Render (Python) & Vercel (Next.js)
 
 ---
+## 🔍 Interactive Keyword Search
+"anxious", "nervous", "happy", "excited", "sad", "proud", "loved", "lonely",
+  "angry", "stressed", "calm", "surprised", "adventurous", "exhausted", "disappointed",
+  "fearful", "hopeful", "joyful", "confused", "grateful", "relieved", "frustrated",
+  "bored", "jealous", "guilty", "motivated", "inspired", "curious", "peaceful",
+  "embarrassed", "determined", "confident", "scared", "shy", "regretful", "disgusted",
+  "hope", "music", "success", "failure", "relax", "win", "family", "alone", "exam",
+  "interview", "travel", "surprise", "tired"
 
 ## 🛠️ Technologies Used
 ### Frontend:
